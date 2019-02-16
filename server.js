@@ -3,7 +3,7 @@ import Expo from 'expo-server-sdk';
 const app = express();
 const expo = new Expo();
 let savedPushTokens = [];
-const PORT_NUMBER = 3000;
+const PORT_NUMBER = process.env.PORT || 3000
 
 
 const saveToken = (token) => {
