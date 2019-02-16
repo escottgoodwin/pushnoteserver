@@ -43,7 +43,7 @@ const handlePushTokens = (message) => {
   })();
 }
 
-  app.use(express.json());
+app.use(express.json());
 
   app.get('/', (req, res) => {
   res.send('Push Notification Server Running');

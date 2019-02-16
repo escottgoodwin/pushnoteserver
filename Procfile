@@ -1,1 +1,1 @@
-web: npm esm server.js
+web: node esm server.js

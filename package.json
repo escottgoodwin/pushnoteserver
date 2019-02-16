@@ -9,6 +9,7 @@
     "express": "^4.16.4"
   },
   "scripts": {
-    "serve": "node -r esm server.js"
+    "serve": "node -r esm server.js",
+    "start": "node -r esm server.js"
   }
 }
