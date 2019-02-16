@@ -10,6 +10,6 @@
   },
   "scripts": {
     "serve": "node -r esm server.js",
-    "start": "node -r esm server.js"
+    "start": "node -r server.js"
   }
 }
